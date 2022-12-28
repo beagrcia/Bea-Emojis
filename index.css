@@ -1,0 +1,132 @@
+html {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    
+}
+
+#emojiGenerator{
+    background: #E6D4CA;
+    height: 450px;
+    box-shadow: -9px 6px 25px rgba(33,33,33,.15)
+}
+
+#emoji-container {
+    margin: 25px auto 10px;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 20px;
+    width: 500px;
+    
+}
+
+#push-btn, #unshift-btn {
+    background-color: #7DAE9B;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #CC889D;
+}
+
+#user-display{
+ display: block;
+ margin: 0px auto;
+ text-align: center;
+ 
+}
+
+h1 {
+    width: 500px;
+    color: white;
+    text-shadow: 0 0 1px black;
+    display: block;
+    margin: 0px auto;
+    padding-top: 30px;
+    font-size: 40px;
+
+
+}
+
+#name-input {
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    width: 250px;
+    background: #E6D4CA;
+    border: none;
+    color: white;
+    text-shadow: 0 0 1px black;
+    
+}
+
+
+#emoji-input {
+    margin: 0 auto 35px;;
+    display: block;
+    border: none;
+    height: 50px;
+    width: 250px;
+    background: #E6D4CA;
+    border-radius: 10px;
+    border: 1px solid #987157;
+    text-align: center;
+    font-size: 30px;
+}
+
+::placeholder{
+    color: #f8f8f8;
+    text-shadow: 0 0 1px black;
+    opacity: 1;
+}
+
+
+#emoji-input:active{
+    background: #E6D4CA;
+}
+
+
+
+#name-input:focus{
+    outline:none
+}
+
+button {
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+    
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+span {
+    background: #B8B48E;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px 20px 10px 10px;;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    font-size: 40px;
+    margin: 0 5px;
+
+}
+
+#reset{
+    background: #C16E67;
+    margin-top: 10px;
+    width: 100px;
+}
+
